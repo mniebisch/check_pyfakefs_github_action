@@ -1,4 +1,4 @@
-name: Linting and Testing
+name: Testing
 
 on: [push]
 
@@ -20,4 +20,4 @@ jobs:
         pip install pytest pyfakefs
     - name: Test with pytest
       run: |
-        pytest
+        pytest test.py
