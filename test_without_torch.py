@@ -1,6 +1,2 @@
-def test_one():
-    assert True
-
-
-def test_two(fs):
+def test_usage(fs):
     assert True
